@@ -27,17 +27,15 @@ THEN the password is either displayed in an alert or written to the page
 
 ```
 ### Usage
-On the right side of the nav bar you will find 4 nav links. The first three will pull you to different points of the page. The last one should take you to my personal github repository.
+When the user clicks "Generate Password" they are asked to choose a password with characters between 8-128. If the user chooses an invalid number; the number they chose is displayed and they are asked to choose again. If the user's number is valid, their number is displayed and they can move on to the next section. 
 
-The hero image features a button that will take you to my personal linkedin.
+In the next section, The user is asked to choose what type of characters they would like their password to include. They can choose uppercase letters, lowercase letters, numbers, and special characters. The user will be shown what choice they have made after each selection. If user made no selections, an alert will show that they must make at least one choice. They are then prompted to start again. 
 
-The button on the larger main feature card will take you to my first HTML / CSS project from module 1. The smaller feature card buttons will take you to corresponding wiki pages relating to the material.
-
-The contact section has links, however they are not connected to anything yet.
+After all choices have been made, a password with all the specifications chosen will be displayed in the text box. 
 
 ### Resources
 * w3schools.com
 * stackoverflow.com
 * https://developer.mozilla.org/en-US/
 
-* Link to Deployed Web Page: git 
+* Link to Deployed Web Page: https://kylealbright.github.io/module3challenge/
