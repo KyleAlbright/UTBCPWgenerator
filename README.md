@@ -39,3 +39,6 @@ After all choices have been made, a password with all the specifications chosen 
 * https://developer.mozilla.org/en-US/
 
 * Link to Deployed Web Page: https://kylealbright.github.io/module3challenge/
+
+![Screenshot (11)](https://user-images.githubusercontent.com/110487869/193184954-2f10336a-056a-4ff1-a341-71c80523000b.png)
+
