@@ -15,7 +15,7 @@ function generatePassword() {
 
   //This prompts the user to choose a number 8-128
   var numOfCharacters = prompt(
-    "Choose password length. (A number between 8-128.)"
+    "Choose password length. (A number between 8-128)"
   );
 
   //while loop to make sure they choose a character between 8-128 and ask them to try again if they chose an invalid number.
@@ -30,7 +30,7 @@ function generatePassword() {
   //Tells the user what number they chose.
   alert("You entered " + numOfCharacters + ".");
 
-  //new function that will chose the type of characters
+  //new function that will chose the type of characters. This was created so the user wont have to start at the very beginning if they didn't choose a type of character
   promptChars();
 
   
@@ -51,7 +51,7 @@ function generatePassword() {
   if (choiceLowerCase) {
     alert("You want Lowercase!");
   } else {
-    alert("You don't want Lowercase ");
+    alert("You don't want Lowercase. ");
   }
 
   //prompts the user to choose if they want to use upperCase, then alerts them to what they chose.
@@ -59,7 +59,7 @@ function generatePassword() {
   if (choiceUpperCase) {
     alert("You want Uppercase!");
   } else {
-    alert("You don't want Uppercase ");
+    alert("You don't want Uppercase. ");
   }
 
   //prompts the user to choose if they want to use numbers, then alerts them to what they chose.
@@ -67,7 +67,7 @@ function generatePassword() {
   if (choiceNumeric) {
     alert("You want Numbers!");
   } else {
-    alert("You don't want Numbers ");
+    alert("You don't want Numbers. ");
   }
 
   //prompts the user to choose if they want to use symbols, then alerts them to what they chose.
@@ -75,7 +75,7 @@ function generatePassword() {
   if (choiceSymbols) {
     alert("You want Special characters!");
   } else {
-    alert("You don't want Special characters ");
+    alert("You don't want Special characters. ");
   }
 // checks that the user chose at least one option
   if (
